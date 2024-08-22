@@ -38,6 +38,7 @@
 .imgHeader {
     margin-left: 20px;
     height: 80px; 
+    cursor: pointer;
 }
 
 
@@ -116,3 +117,141 @@
     text-align: center;
 }
 
+
+#container2 {
+    background: linear-gradient(to top, #000000, #2b2b2b);
+    width: 100%;
+    height: 100%;
+    padding-top: 25px;
+    padding-bottom: 250px;
+}
+#titlePQ {
+    color: #ffffff;
+    font-size: 35px;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-left: 110px;
+    margin-top: 60px;
+}
+
+#subTitlePQ {
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Flex', sans-serif;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+#redCircles1, #redCircles2, #redCircles3 {
+    background-color: #C33939;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 50px rgba(220, 80, 80, 0.7);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 0 auto 30px;
+}
+
+
+#globalRedCircles {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 170px;
+}
+
+#globalRedCircles h1, h2 {
+    text-align: center;
+}
+
+#tituloExcelencia, #tituloConfiabilidade, #tituloQualidade {
+    margin-bottom: 10px; 
+    font-size: 20px;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+}
+
+.subTitleExcelencia, .subTitleConfiabilidade, .subTitleQualidade {
+    font-size: 15px;
+    line-height: 1.5;
+    max-width: 400px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: white;
+}
+
+#titleServices {
+    font-size: 45px;
+    font-family: 'Roboto Flex', sans-serif;
+    margin-left: 110px;
+    margin-top: 50px;
+    color: #C33939;
+}
+
+#h1Churrasqueiras {
+    font-size: 35px;
+    font-family: 'Roboto Flex', sans-serif;
+    margin-left: 110px;
+    margin-top: 30px;
+    color: #000000;
+}
+
+#h1Piscinas {
+    font-size: 35px;
+    font-family: 'Roboto Flex', sans-serif;
+    margin-left: 110px;
+    margin-top: 30px;
+    color: #000000;
+}
+
+#h1Banheiras {
+    font-size: 35px;
+    font-family: 'Roboto Flex', sans-serif;
+    margin-left: 110px;
+    margin-top: 30px;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+#faixa-preta2 {
+    background-color: #000000;
+    color: white;
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 55px;
+    margin-top: 50px;
+}
+
+.titleFaixaPreta {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 30px;
+}
+
+.bi-instagram, .bi-linkedin, .bi-facebook, .bi-pinterest {
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 32px;
+    cursor: pointer;
+
+}
