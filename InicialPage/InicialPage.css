@@ -7,7 +7,7 @@
 }
 
 
-/* HEADER */
+/* Container1 */
 #container1 {
     position: relative;
     width: 100%;
@@ -86,14 +86,14 @@
     cursor: pointer;
 }
 
-/* Fim Header */
+/* Fim Container1 */
 
 
 
 #titulao01{
     position: absolute;
     bottom: 19.5rem;
-    left: 32rem;
+    left: 31rem;
     z-index: 2;
     display: flex;
     font-family: 'Roboto Flex', sans-serif;
@@ -107,7 +107,7 @@
 #titulao02{
     position: absolute;
     bottom: 16rem;
-    left: 38rem;
+    left: 37rem;
     z-index: 2;
     display: flex;
     font-family: 'Roboto Flex', sans-serif;
@@ -299,5 +299,4 @@
     margin-right: 10px;
     margin-top: 32px;
     cursor: pointer;
-
 }

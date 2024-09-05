@@ -1,0 +1,354 @@
+
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Container1 */
+#container1 {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden; 
+}
+
+.imgBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    opacity: 0.95;
+    z-index: 1;
+}
+
+#headerChurras {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+
+.imgHeader {
+    margin-left: 20px;
+    height: 80px; 
+    cursor: pointer;
+}
+
+
+#textRight {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-right: 50px;
+    font-size: 11px;
+    color: #ffffff; 
+    font-family: "M PLUS 1p";
+}
+
+#textRight svg, #textRight h1{
+    cursor: pointer;
+}
+
+.searchIcon, .shopIcon{
+    color: white;
+    width:22px; 
+    height:22px;
+    stroke-width: 4;
+}
+
+#BackSubHeader {
+    background-color: black;
+    padding: 10px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+}
+
+#subHeader {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    margin-left: 100px;
+}
+#subHeader .titles{
+    color: white;
+    font-size: 15px;
+    font-family: 'Kumbh Sans', sans-serif;
+    cursor: pointer;
+}
+
+#titulao01{
+    position: absolute;
+    bottom: 19.3rem;
+    left: 36rem;
+    z-index: 2;
+    display: flex;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+}
+
+/* Fim do Container1 */
+
+
+.titleContainer2 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 230px;
+    margin-top: 120px;
+}
+
+.titleContainer2_2 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 570px;
+    margin-bottom: 120px;
+}
+
+/* blocosServicos */
+
+.imgBloco1, .imgBloco2, .imgBloco3, .imgBloco4, .imgBloco5 {
+    border-radius: 5px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    object-fit: cover;
+} 
+
+.titleBloco01{
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    top: 66rem;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.titleBloco02{
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    top: 66rem;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.titleBloco03{
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    top: 66rem;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.titleBloco04{
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    top: 100.8rem;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.titleBloco05{
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    top: 100.8rem;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subtitleBloco01{
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    top: 86.6rem;
+    margin-left: 20px;
+    font-family: 'Lora', serif;
+}
+.subtitleBloco02{
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    top: 86.6rem;
+    margin-left: 20px;
+    font-family: 'Lora', serif;
+}
+.subtitleBloco03{
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    top: 86.6rem;
+    margin-left: 20px;
+    font-family: 'Lora', serif;
+}
+.subtitleBloco04{
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    top: 121.5rem;
+    margin-left: 20px;
+    font-family: 'Lora', serif;
+}
+.subtitleBloco05{
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    top: 121.5rem;
+    margin-left: 20px;
+    font-family: 'Lora', serif;
+}
+
+#linhavermelha {
+    width: 50%; /* Ajuste a largura conforme necessário */
+    height: 2px; /* Define a altura da linha */
+    background-color: red; /* Define a cor vermelha */
+    margin: 0 auto; /* Centraliza a linha horizontalmente */
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+/* Fim dos blocosServicos */
+
+#linhavermelha2 {
+    width: 50%; /* Ajuste a largura conforme necessário */
+    height: 2px; /* Define a altura da linha */
+    background-color: red; /* Define a cor vermelha */
+    margin: 0 auto; /* Centraliza a linha horizontalmente */
+    margin-bottom: 180px;
+    margin-top: 80px;
+}
+
+#grupoBlocos1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#grupoBlocos2{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#faixa-preta2 {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 55px;
+    margin-top: 50px;
+}
+
+
+#orcamento{
+    margin-bottom: 220px;
+    
+}
+
+#linhavermelhaOrcamento{
+    width: 50%; /* Ajuste a largura conforme necessário */
+    height: 2px; /* Define a altura da linha */
+    background-color: red; /* Define a cor vermelha */
+    margin: 0 auto; /* Centraliza a linha horizontalmente */
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titleOrcamento{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+.subtitleOrcamento{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+    opacity: 0.5;
+}
+
+#quadroBrancoOrcamento{
+    margin-left: 80px;
+    padding: 60px;
+    display: flex;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#contatos{
+    margin-right: 80px;
+}
+
+#Telefone1, #Telefone2, #email1, #email2 {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.textoTelefone1, .textoTelefone2, .textoEmail1, .textoEmail2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+
+
+#QuadroLogoContatos { 
+    border: 2px solid red;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.logoContatos{
+    width: 200px;
+    margin-left: 15px;
+}
