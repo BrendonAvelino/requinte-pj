@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requinte Churrasqueiras</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <link rel="icon" type="image/png"
+        href="https://yata2.s3-object.locaweb.com.br/a2c7c963113bd579b7755427575dd2e7fac0334c7490eba37739a0698f6ef6ee">
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+    <link rel="stylesheet" href="sobrenos.css">
+</head>
+
+<body>
+    <div id="container1">
+        <img src="../imgs/fundo-sobrenos.png" alt="" class="imgBackground">
+        <header id="headerChurras">
+            <img onclick="window.location.href='../InicialPage/InicialPage.html'" src="../imgs/LogoRequinte.png" alt="" class="imgHeader">
+            <div id="textRight">
+                <h1 onclick="window.location.href='../sobreNos/sobrenos.html'" class="QmSomos">Quem somos</h1>
+                <h1 onclick="window.location.href='../Servicos/servicos.html'" class="textoServices">Serviços</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="searchIcon" viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="shopIcon" viewBox="0 0 16 16">
+                    <path
+                        d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.37 2.37 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0M1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5m2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5" />
+                </svg>
+            </div>
+        </header>
+
+        <div id="BackSubHeader">
+            <div id="subHeader">
+                <h1 class="titles">HOME</h1>
+                <h1 class="titles">ALVENARIA</h1>
+                <h1 class="titles">AQUECEDORES</h1>
+                <h1 class="titles">BANHEIRAS</h1>
+                <h1 class="titles">CHURRASQUEIRA</h1>
+                <h1 class="titles">CONSTRUÇÃO</h1>
+            </div>
+        </div>
+        <div class="overlay">
+            <h1>Sobre Nós</h1>
+        </div>
+    </div>
+
+        <div class="text-apresentacao">
+            <p class="text">Fundada em 2004 na cidade de Itaquaquecetuba/SP, a Requinte Lazer oferece uma linha completa
+                de
+                churrasqueiras, piscinas, lareiras, fornos e fogões a lenha, banheiras, saunas, aquecedores,
+                revestimentos e
+                pedras decorativas. Com tradição e experiência no mercado, rapidamente se tornou uma das mais
+                conceituadas
+                lojas na área de produtos para lazer.
+                 </p>
+            </div>
+
+        <div class="title">
+            <h1 class="titulo-com-linha">O que oferecemos?</h1>
+            <div class="line-red"></div> <!-- Linha vermelha -->
+        </div>
+
+        <section class="caixas">
+            <div class="caixa1">
+                <img src="../imgs/churrasqueira01-sobrenos.jpg" alt="">
+                <h2>Qualidade Superior dos Materiais</h2>
+                <p>Nós utilizamos apenas materiais de alta qualidade, como mármore e pedras nobres, garantindo que cada
+                    projeto seja duradouro e esteticamente impecável.</p>
+            </div>
+            <div class="caixa2">
+                <img src="../imgs/churrasqueira02-sobrenos.png" alt="">
+                <h2>por que nos escolher?</h2>
+                <p>Crie momentos inesquecíveis com nossas churrasqueiras personalizadas. Oferecemos desde modelos
+                    pré-moldados até soluções sob medida, adaptadas para o seu espaço e estilo.</p>
+            </div>
+            <div class="caixa3">
+                <img src="../imgs/carrossel01.png" alt="">
+                <h2>Personalização Completa</h2>
+                <p>Cada projeto é único. Trabalhamos lado a lado com você para criar churrasqueiras, banheiras e outras
+                    estruturas que reflitam seu estilo e se integrem perfeitamente ao seu espaço.</p>
+            </div>
+        </section>
+
+        <section id="faixa-preta2">
+            <div class="ponto">
+                <h1>250+</h1>
+                <p>Serviços entregues</p>
+            </div>
+            <div class="ponto">
+                <h1>20</h1>
+                <p>Anos de experiência</p>
+            </div>
+            <div class="ponto">
+                <h1>3</h1>
+                <p>Unidades</p>
+            </div>
+        </section>
+
+
+        <!-- // Mapa das unidades // -->
+
+        <div class="title">
+            <h1 class="titulo-com-linha">Unidades</h1>
+        </div>
+        <section class="container">
+
+            <div id="unidades" class="map-container">
+                <div class="map-item">
+                    <div class="map-title">Poá</div>
+                    <div id="map-poa" class="map"></div>
+                </div>
+                <div class="map-item">
+                    <div class="map-title">Suzano</div>
+                    <div id="map-suzano" class="map"></div>
+                </div>
+                <div class="map-item">
+                    <div class="map-title">Itaquaquecetuba</div>
+                    <div id="map-itaqua" class="map"></div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            // Função para adicionar delay ao zoom
+            function enableScrollZoom(map) {
+                let zoomTimeout;
+
+                map.on('mouseover', function () {
+                    zoomTimeout = setTimeout(function () {
+                        map.scrollWheelZoom.enable();
+                    }, 2000); // 1 segundo de delay
+                });
+
+                map.on('mouseout', function () {
+                    clearTimeout(zoomTimeout);
+                    map.scrollWheelZoom.disable();
+                });
+            }
+
+            // Mapa de Poá
+            var mapPoa = L.map('map-poa').setView([-23.511713714592798, -46.33927054232831], 15);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(mapPoa);
+            L.marker([-23.511713714592798, -46.33927054232831]).addTo(mapPoa)
+                .bindPopup("<b>Centro Rua</b><br>Av. Nove de Julho, 1575, Poá - SP, 08557-100");
+
+            enableScrollZoom(mapPoa); // Ativa o delay no zoom para o mapa de Poá
+
+            // Mapa de Suzano
+            var mapSuzano = L.map('map-suzano').setView([-23.525792855039715, -46.32154047337655], 15);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(mapSuzano);
+            L.marker([-23.525792855039715, -46.32154047337655]).addTo(mapSuzano)
+                .bindPopup("<b>Vila Maria de Maggi</b><br>Major Pinheiro Fróes N° 1730, Suzano - SP, 08680-000");
+
+            enableScrollZoom(mapSuzano); // Ativa o delay no zoom para o mapa de Suzano
+
+            // Mapa de Itaquaquecetuba
+            var mapItaqua = L.map('map-itaqua').setView([-23.488731071977003, -46.363183166330366], 15);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(mapItaqua);
+            L.marker([-23.488731071977003, -46.363183166330366]).addTo(mapItaqua)
+                .bindPopup("<b>Vila Monte Belo</b><br>Rodovia Henrique Eroles, 9009, Itaquaquecetuba - SP, 08582-545");
+
+            enableScrollZoom(mapItaqua); // Ativa o delay no zoom para o mapa de Itaquaquecetuba
+        </script>
+
+
+        <div class="faixa_3">
+            <h2 class="titleFaixaPreta">Visite nossas redes sociais!</h2>
+
+            <div id="iconesSocial">
+                <svg onclick="window.location.href='https://www.instagram.com/requintelazer/'"
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-instagram"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                </svg>
+
+
+                <svg onclick="window.location.href='https://br.linkedin.com/company/requinte-lazer'"
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-linkedin"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                </svg>
+
+
+                <svg onclick="window.location.href='https://www.facebook.com/requintechurrasqueiras/'"
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-facebook"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                </svg>
+
+
+                <svg onclick="window.location.href='https://br.pinterest.com/Requinte_Lazer/'"
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-pinterest"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0" />
+                </svg>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <img src="../imgs/LogoRequinte.png" alt="Requinte Lazer">
+                </div>
+
+                <div class="footer-contact">
+                    <h3>Contato</h3>
+                    <p><i class="fas fa-phone"></i> (11) 4742-8087</p>
+                    <p><i class="fas fa-phone"></i> (11) 4634-1197</p>
+                    <p><i class="fas fa-phone"></i> 11 99124-7584</p>
+                    <p><i class="fas fa-envelope"></i> requinte.pedras.churrasqueiras@hotmail.com</p>
+                    <p><i class="fas fa-envelope"></i> contato@requintelazer.com.br</p>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Institucional</h3>
+                    <a href="#">Envio</a>
+                    <a href="#">Tempo de Garantia</a>
+                    <a href="#">Trocas e Devoluções</a>
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos e Condições de Uso</a>
+                </div>
+
+                <div class="footer-selos">
+                    <h3>Segurança</h3>
+                    <img src="../imgs/norton-selo.jpeg" alt="norton-selo">
+                    <img src="../imgs/google-selo.jpeg" alt="google-selo">
+                </div>
+            </div>
+        </footer>
+        
+        <div class="subfooter">
+            <p>E-commerce - www.requintelazer.com.br | Rod Henrique Eroles, Nº 9009 - em frente ao SHIBATA |
+                Itaquaquecetuba
+                - SP - CEP: 08577-770 | Telefone: (11) 4732-1410 / (11) 4753-5285 / (11) 94781-1920 |
+                atendimento@requintechurrasqueiras.com.br | Av Nove de Julho, Nº 1575 | Centro Poá , SP - CEP :
+                08557-100 |
+                Telefone: (11) 4634-1197 / (11) 91205-4722 | AV. MAJOR PINHEIRO FROES N° 1730 VILA MARIA DE MAGGI -
+                SUZANO,
+                Cep: 08680-000 | Telefone: (11) 3497-8946 / (11) 4742-8087 / (11) 91202-2205 | Compras podem ser
+                realizadas
+                pela nossa loja virtual.</p>
+        </div>
+
+
+</body>
+
+</html>

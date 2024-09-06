@@ -1,0 +1,674 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* Container1 */
+#container1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.imgBackground {
+    position: absolute;
+    background-image: url('img/fundo-sobrenos.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 60%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+
+#headerChurras {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.imgHeader {
+    margin-left: 20px;
+    height: 70px;
+    width: 160px;
+    cursor: pointer;
+}
+
+#textRight {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "M PLUS 1p";
+    font-weight: bold;
+
+}
+
+#textRight svg,
+#textRight h1 {
+    cursor: pointer;
+}
+
+#subHeader {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+#subHeader .titles {
+    color: white;
+    font-size: 14px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#textRight h1 {
+    margin-right: 30px;
+    padding-top: 17px;
+}
+
+.searchIcon,
+.shopIcon {
+    color: white;
+    width: 22px;
+    height: 22px;
+    stroke-width: 4;
+    margin-left: 10px;
+
+}
+
+#BackSubHeader {
+    background-color: black;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    padding-top:17px;
+}
+
+#subHeader {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    margin-left: 100px;
+    height: 100%;
+}
+
+#subHeader .titles {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Kumbh Sans', sans-serif;
+    cursor: pointer;
+    height: 100%; /* Garante que o título ocupe toda a altura do subHeader */
+    line-height: 50px; /* Alinha o texto verticalmente dentro da altura definida */
+}
+
+
+/* Fim Container1 */
+
+.hero h1 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    /* Ajuste conforme necessário */
+}
+
+.text {
+    font-size: 18px;
+    width: 60%;
+    max-width: 900px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0 auto;
+
+}
+
+.text-apresentacao {
+    padding: 100px;
+
+}
+.titulo-com-linha {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    font-size: 28px;
+    /* Tamanho da fonte do título */
+}
+
+.titulo-com-linha::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+    /* Distância da linha em relação ao título */
+    height: 2px;
+    /* Altura da linha */
+    background-color: red;
+    /* Cor da linha */
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.title {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrossel {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.imagens {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.imagens img {
+    width: 33.33%;
+    /* Cada imagem ocupa um terço do carrossel */
+    border-radius: 10px;
+}
+
+.botoes {
+    margin-top: 10px;
+    /* Espaço acima dos botões */
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 0 5px;
+    /* Espaço entre os botões */
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.caixas {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0, auto;
+    padding: 100px;
+    /* Adiciona espaçamento interno para afastar das extremidades */
+    max-width: 90%;
+    /* Reduz a largura máxima do container para afastar das bordas */
+
+}
+
+.caixas .caixa1,
+.caixas .caixa2,
+.caixas .caixa3 {
+    text-align: start;
+    flex: 1;
+    margin: 0 10px;
+    /* Adiciona espaçamento entre as caixas */
+}
+
+
+
+.caixas img {
+    width: 100%;
+    height: auto;
+    /* Mantém a altura proporcional à largura */
+    display: block;
+    margin: 0 auto 10px auto;
+    /* Centraliza a imagem e adiciona margem inferior */
+    object-fit: cover;
+    /* Ajusta a imagem para cobrir o espaço disponível */
+    max-height: 300px;
+    /* Limita a altura máxima para achatar as imagens */
+}
+
+
+.caixas h2 {
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+    color: #B71C1C;
+}
+
+.caixas p {
+    font-size: 1rem;
+    margin: 0;
+    line-height: 1.5;
+    color: #333;
+}
+
+#faixa-preta2 {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    /* Distribui os elementos com espaço entre eles */
+    align-items: center;
+    /* Alinha os elementos verticalmente no centro */
+    text-align: center;
+    font-size: 30px;
+    padding: 0px 100px;
+    /* Ajusta a altura da faixa preta */
+}
+
+.ponto {
+    display: flex;
+    flex-direction: column;
+    /* Mantém os números e textos empilhados */
+    align-items: center;
+    /* Centraliza o conteúdo dentro do ponto */
+    width: 45px;
+    height: 45px;
+    margin-left: 200px;
+    margin-right: 200px;
+    cursor: pointer;
+}
+
+.ponto h1 {
+    margin: 0;
+    /* Remove a margem do h1 */
+    font-size: 70px;
+    /* Tamanho da fonte do número */
+}
+
+.ponto p {
+    margin: 0;
+    /* Remove a margem do parágrafo */
+    margin-top: 8px;
+    font-size: 20px;
+    /* Ajusta o tamanho da fonte do texto */
+}
+
+.map-container {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.map-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map {
+    width: 450px;
+    height: 350px;
+    border: 1px solid #ccc;
+
+}
+
+.map-title {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Faixa redes sociais */
+.faixa_3 {
+    background-color: #000000;
+    color: white;
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 55px;
+    margin-top: 50px;
+}
+
+.titleFaixaPreta {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 30px;
+}
+
+.bi-instagram, .bi-linkedin, .bi-facebook, .bi-pinterest {
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    background-color: #ffffff;
+
+    padding: 30px 0;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: stretch;
+
+}
+
+.footer-container {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: stretch;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 1200px;
+
+}
+
+.footer-contact p {
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+.footer-contact i {
+    margin-right: 8px;
+
+    color: #333;
+
+}
+
+
+.footer-logo img {
+    display: flex;
+    margin-top: 30px;
+    margin-right: 140px;
+    width: 150px;
+
+}
+
+.footer-location,
+.footer-contact {
+    margin-right: 90px;
+}
+
+.footer-location,
+
+.footer-links {
+
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+}
+
+.footer-contact {
+    flex: 1;
+    margin-bottom: 20px;
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.footer-selos img {
+    width: 80px;
+
+    margin-top: 10px;
+}
+
+.footer-location h3,
+.footer-links h3,
+.footer-selos h3 {
+    font-size: 18px;
+
+    font-weight: bold;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+.footer-contact h3 {
+    justify-content: start;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+
+.footer-links a {
+    text-decoration: none;
+
+    color: black;
+
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+
+    color: #B71C1C;
+}
+
+.footer-links {
+    font-size: 14px;
+
+    margin-bottom: 15px;
+    margin-right: 60px;
+}
+
+.footer-selos p {
+    font-weight: bold;
+
+    margin-bottom: 10px;
+
+}
+
+.subfooter {
+    border-color: #000000;
+    border-radius: 10px;
+    text-align: center;
+
+    padding: 20px;
+
+    background-color: #ffffff;
+
+    font-size: 11px;
+    margin: 5px 0;
+
+    color: #333;
+
+}
