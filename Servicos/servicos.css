@@ -136,6 +136,7 @@
     position: relative;
     z-index: 1;
     object-fit: cover;
+    
 } 
 
 .titleBloco01{
@@ -241,10 +242,10 @@
 }
 
 #linhavermelha {
-    width: 50%; /* Ajuste a largura conforme necessário */
-    height: 2px; /* Define a altura da linha */
-    background-color: red; /* Define a cor vermelha */
-    margin: 0 auto; /* Centraliza a linha horizontalmente */
+    width: 50%; 
+    height: 2px; 
+    background-color: red; 
+    margin: 0 auto; 
     margin-bottom: 80px;
     margin-top: 80px;
 }
@@ -252,10 +253,10 @@
 /* Fim dos blocosServicos */
 
 #linhavermelha2 {
-    width: 50%; /* Ajuste a largura conforme necessário */
-    height: 2px; /* Define a altura da linha */
-    background-color: red; /* Define a cor vermelha */
-    margin: 0 auto; /* Centraliza a linha horizontalmente */
+    width: 50%; 
+    height: 2px; 
+    background-color: red; 
+    margin: 0 auto; 
     margin-bottom: 180px;
     margin-top: 80px;
 }
@@ -272,12 +273,10 @@
     
 }
 
-#faixa-preta2 {
+#faixa-preta1 {
     background-color: #000000;
     color: white;
     display: flex;
-    align-items: center;
-    text-align: center;
     padding: 55px;
     margin-top: 50px;
 }
@@ -289,11 +288,11 @@
 }
 
 #linhavermelhaOrcamento{
-    width: 50%; /* Ajuste a largura conforme necessário */
-    height: 2px; /* Define a altura da linha */
-    background-color: red; /* Define a cor vermelha */
-    margin: 0 auto; /* Centraliza a linha horizontalmente */
-    margin-left: 20px;
+    width: 30%; 
+    height: 2px; 
+    background-color: red; 
+    margin: 0 auto; 
+    margin-left: 1px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -305,11 +304,13 @@
 .subtitleOrcamento{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-
     opacity: 0.5;
+    
 }
 
 #quadroBrancoOrcamento{
+    align-items: center;
+    text-align: center;
     margin-left: 80px;
     padding: 60px;
     display: flex;
@@ -351,4 +352,153 @@
 .logoContatos{
     width: 200px;
     margin-left: 15px;
+}
+
+.bi-instagram, .bi-linkedin, .bi-facebook, .bi-pinterest {
+    width: 45px;
+    height: 45px;
+    display: inline;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+/* footer */
+footer {
+    background-color: #ffffff;
+    /* Cor de fundo */
+    padding: 30px 0;
+    /* Espaçamento acima e abaixo */
+    display: flex;
+    /* Usando flexbox */
+    justify-content: center;
+    /* Centraliza o conteúdo */
+    align-items: stretch;
+    /* Estica os itens para a mesma altura */
+}
+
+.footer-container {
+    display: flex;
+    /* Flexbox para a organização */
+    justify-content: space-between;
+    /* Espaça os itens */
+    align-items: stretch;
+    /* Estica os itens para a mesma altura */
+    width: 100%;
+    /* Largura total */
+    max-width: 1200px;
+    /* Largura máxima */
+    padding: 0 40px;
+    /* Espaçamento lateral */
+}
+
+.footer-contact p {
+    display: flex;
+    /* Usar flexbox para alinhar ícones e texto */
+    align-items: center;
+    /* Centraliza verticalmente */
+}
+
+.footer-contact i {
+    margin-right: 8px;
+    /* Espaço entre o ícone e o texto */
+    color: #333;
+    /* Cor do ícone */
+}
+
+
+.footer-logo img {
+    display: flex;
+    margin-top: 45px;
+    margin-right: 90px;
+    width: 150px;
+    /* Tamanho da logo */
+}
+
+.footer-location,
+.footer-contact
+{
+    margin-right: 90px;
+}
+
+.footer-location,
+.footer-contact,
+.footer-links {
+
+    flex: 1;
+    /* Flexível para ocupar espaço igual */
+    display: flex;
+    /* Flexbox para alinhar conteúdo */
+    flex-direction: column;
+    /* Alinha os itens verticalmente */
+    justify-content: center;
+    /* Centraliza verticalmente */
+}
+
+.footer-selos img {
+    width: 80px;
+    /* Tamanho da imagem dos selos */
+    margin-top: 10px;
+    /* Espaço acima da imagem */
+}
+
+.footer-location h3,
+.footer-contact h3,
+.footer-links h3,
+.footer-selos h3 {
+    font-size: 18px;
+    /* Tamanho da fonte dos títulos */
+    font-weight: bold;
+    /* Negrito */
+    margin-bottom: 15px;
+    /* Espaço abaixo do título */
+}
+
+.footer-contact h3 {
+    justify-content: start;
+}
+
+
+.footer-links a {
+    text-decoration: none;
+    /* Remove sublinhado */
+    color: black;
+    /* Cor do texto */
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    /* Sublinha ao passar o mouse */
+    color: #B71C1C;
+}
+
+.footer-links {
+    font-size: 14px;
+    /* Tamanho da fonte dos links */
+    margin-bottom: 15px;
+    margin-right: 60px;
+}
+
+.footer-selos p {
+    font-weight: bold;
+    /* Negrito */
+    margin-bottom: 10px;
+    /* Espaço abaixo do texto */
+}
+
+.subfooter {
+    border-color: #000000;
+    border-radius: 10px;
+    text-align: center;
+    /* Centraliza o texto */
+    padding: 20px;
+    /* Adiciona espaçamento ao redor */
+    background-color: #ffffff;
+    /* Cor de fundo opcional */
+    font-size: 11px;
+    margin: 5px 0;
+    /* Espaçamento entre os parágrafos */
+    color: #333;
+    /* Cor do texto */
 }
