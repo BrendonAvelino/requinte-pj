@@ -80,6 +80,7 @@
 #BackSubHeader {
     background-color: black;
     padding: 10px;
+    padding-bottom: 20px;
     position: relative;
     z-index: 2;
     display: flex;
@@ -94,6 +95,7 @@
     margin-left: 100px;
 }
 #subHeader .titles{
+    margin-top: 7.5px;
     color: white;
     font-size: 15px;
     font-family: 'Kumbh Sans', sans-serif;
