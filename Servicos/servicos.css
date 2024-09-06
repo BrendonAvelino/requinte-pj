@@ -272,12 +272,11 @@
     
 }
 
-#faixa-preta2 {
+#faixa-preta1 {
     background-color: #000000;
     color: white;
     display: flex;
-    align-items: center;
-    text-align: center;
+    
     padding: 55px;
     margin-top: 50px;
 }
@@ -289,11 +288,11 @@
 }
 
 #linhavermelhaOrcamento{
-    width: 50%; /* Ajuste a largura conforme necessário */
+    width: 30%; /* Ajuste a largura conforme necessário */
     height: 2px; /* Define a altura da linha */
     background-color: red; /* Define a cor vermelha */
     margin: 0 auto; /* Centraliza a linha horizontalmente */
-    margin-left: 20px;
+    margin-left: 1px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -315,6 +314,8 @@
     display: flex;
     color: black;
     background-color: white;
+    align-items: center;
+    text-align: center;
     border-radius: 15px;
 }
 
@@ -351,4 +352,241 @@
 .logoContatos{
     width: 200px;
     margin-left: 15px;
+}
+
+#linhavermelhaServices {
+    width: 50%; /* Ajuste a largura conforme necessário */
+    height: 2px; /* Define a altura da linha */
+    background-color: red; /* Define a cor vermelha */
+    margin: 0 auto; /* Centraliza a linha horizontalmente */
+    margin-bottom: 110px;
+    margin-top: 20px;
+}
+
+.lastServices{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    margin-left: 530px;
+    margin-top: 130px;
+}
+
+/* Começo do carrosel */
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+    width: 360px; 
+    height: 350px; /* Defina uma altura fixa para todas as imagens */
+    margin: 0 10px;
+    border-radius: 10px; 
+    object-fit: cover; /* Garante que a imagem ocupe o espaço corretamente */
+}
+
+/* Controle dos botões de navegação */
+.carousel-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.carousel-controls button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+/* fim do carrossel */
+
+
+
+
+
+
+
+/* footer */
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    background-color: #ffffff;
+    
+    padding: 10px 0;
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: stretch;
+    
+}
+
+.footer-container {
+    display: flex;
+    
+    justify-content: space-between;
+   
+    align-items: stretch;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 1200px;
+    
+}
+
+.footer-contact p {
+    display: flex;
+    
+    align-items: center;
+    
+}
+
+
+.footer-contact i {
+    margin-right: 8px;
+    
+    color: #333;
+    
+}
+
+
+.footer-logo img {
+    display: flex;
+    margin-top: 30px;
+    margin-right: 140px;
+    width: 150px;
+    
+}
+
+.footer-location,
+.footer-contact
+{
+    margin-right: 90px;
+}
+
+.footer-location,
+
+.footer-links {
+
+    flex: 1;
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    justify-content: center;
+    
+}
+
+.footer-contact {
+    flex: 1;
+    margin-bottom: 20px;
+    display: flex;
+    
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+.footer-selos img {
+    width: 80px;
+   
+    margin-top: 10px;
+}
+
+.footer-location h3,
+.footer-links h3,
+.footer-selos h3 {
+    font-size: 18px;
+    
+    font-weight: bold;
+  
+    margin-bottom: 15px;
+    
+}
+
+
+
+.footer-contact h3 {
+    justify-content: start;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+
+.footer-links a {
+    text-decoration: none;
+    
+    color: black;
+    
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    
+    color: #B71C1C;
+}
+
+.footer-links {
+    font-size: 14px;
+    
+    margin-bottom: 15px;
+    margin-right: 60px;
+}
+
+.footer-selos p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subfooter {
+    border-color: #000000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    font-size: 11px;
+    margin: 5px 0;
+    color: #333;
+    
+}
+
+/* fim do footer */
+
+#faixa-preta2 {
+    background-color: #000000;
+    color: white;
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 55px;
+    margin-top: 50px;
+}
+
+.titleFaixaPreta {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 30px;
+}
+
+.bi-instagram, .bi-linkedin, .bi-facebook, .bi-pinterest {
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 32px;
+    cursor: pointer;
 }

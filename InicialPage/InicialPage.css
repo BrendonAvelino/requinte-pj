@@ -41,15 +41,26 @@
     cursor: pointer;
 }
 
+.QmSomos {
+    
+    font-size: 25px;
+    color: #ffffff; 
+    font-family: "M PLUS 1p";
+}
+
+.textoServices {
+    margin-right: 50px;
+    font-size: 25px;
+    color: #ffffff; 
+    font-family: "M PLUS 1p";
+}
 
 #textRight {
     display: flex;
     align-items: center;
     gap: 35px;
     margin-right: 50px;
-    font-size: 11px;
-    color: #ffffff; 
-    font-family: "M PLUS 1p";
+
 }
 
 #textRight svg, #textRight h1{
@@ -299,4 +310,150 @@
     margin-right: 10px;
     margin-top: 32px;
     cursor: pointer;
+}
+
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    background-color: #ffffff;
+    
+    padding: 10px 0;
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: stretch;
+    
+}
+
+.footer-container {
+    display: flex;
+    
+    justify-content: space-between;
+   
+    align-items: stretch;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 1200px;
+    
+}
+
+.footer-contact p {
+    display: flex;
+    
+    align-items: center;
+    
+}
+
+
+.footer-contact i {
+    margin-right: 8px;
+    
+    color: #333;
+    
+}
+
+
+.footer-logo img {
+    display: flex;
+    margin-top: 30px;
+    margin-right: 140px;
+    width: 150px;
+    
+}
+
+.footer-location,
+.footer-contact
+{
+    margin-right: 90px;
+}
+
+.footer-location,
+
+.footer-links {
+
+    flex: 1;
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    justify-content: center;
+    
+}
+
+.footer-contact {
+    flex: 1;
+    margin-bottom: 20px;
+    display: flex;
+    
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+.footer-selos img {
+    width: 80px;
+   
+    margin-top: 10px;
+}
+
+.footer-location h3,
+.footer-links h3,
+.footer-selos h3 {
+    font-size: 18px;
+    
+    font-weight: bold;
+  
+    margin-bottom: 15px;
+    
+}
+
+
+
+.footer-contact h3 {
+    justify-content: start;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+
+.footer-links a {
+    text-decoration: none;
+    
+    color: black;
+    
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    
+    color: #B71C1C;
+}
+
+.footer-links {
+    font-size: 14px;
+    
+    margin-bottom: 15px;
+    margin-right: 60px;
+}
+
+.footer-selos p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subfooter {
+    border-color: #000000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    font-size: 11px;
+    margin: 5px 0;
+    color: #333;
+    
 }
