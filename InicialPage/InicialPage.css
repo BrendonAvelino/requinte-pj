@@ -41,27 +41,8 @@
     cursor: pointer;
 }
 
-.QmSomos {
-    
-    font-size: 25px;
-    color: #ffffff; 
-    font-family: "M PLUS 1p";
-}
+del .git\index.lock
 
-.textoServices {
-    margin-right: 50px;
-    font-size: 25px;
-    color: #ffffff; 
-    font-family: "M PLUS 1p";
-}
-
-#textRight {
-    display: flex;
-    align-items: center;
-    gap: 35px;
-    margin-right: 50px;
-
-}
 
 #textRight svg, #textRight h1{
     cursor: pointer;
@@ -244,7 +225,7 @@
 .carrossel {
     position: relative;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1330px;
     margin: 0 auto 130px;
     overflow: hidden;
     border-radius: 8px;

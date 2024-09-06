@@ -44,15 +44,26 @@
     cursor: pointer;
 }
 
+.QmSomos {
+    
+    font-size: 25px;
+    color: #ffffff; 
+    font-family: "M PLUS 1p";
+}
+
+.textoServices {
+    margin-right: 50px;
+    font-size: 25px;
+    color: #ffffff; 
+    font-family: "M PLUS 1p";
+}
 
 #textRight {
     display: flex;
     align-items: center;
     gap: 35px;
     margin-right: 50px;
-    font-size: 11px;
-    color: #ffffff; 
-    font-family: "M PLUS 1p";
+
 }
 
 #textRight svg, #textRight h1{
